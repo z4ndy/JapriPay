@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp"
+    android:orientation="vertical"
+    tools:context=".fragment.setting.RekeningFragment">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+        <AutoCompleteTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_card"
+            android:paddingVertical="10dp"
+            android:paddingHorizontal="15dp"
+            android:hint="Nama Bank"
+            android:fontFamily="@font/reguler"
+            android:id="@+id/bank"
+            android:inputType="text"
+            android:layout_marginBottom="15dp"
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_card"
+            android:paddingVertical="10dp"
+            android:paddingHorizontal="15dp"
+            android:hint="Nomor Rekening"
+            android:id="@+id/norek"
+            android:inputType="phone"
+            android:fontFamily="@font/reguler"
+            android:layout_marginBottom="15dp"
+            tools:ignore="TextFields" />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_card"
+            android:paddingVertical="10dp"
+            android:paddingHorizontal="15dp"
+            android:hint="Atas Nama"
+            android:id="@+id/name"
+            android:fontFamily="@font/reguler"
+            android:layout_marginBottom="15dp"
+            />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bn_blue"
+            android:text="Perbaharui Rekening"
+            android:textAllCaps="false"
+            android:fontFamily="@font/reguler"
+            android:textSize="20sp"
+            android:id="@+id/simpan"
+            android:layout_marginTop="25dp"
+            android:paddingVertical="10dp"
+            />
+    </LinearLayout>
+    <include layout="@layout/admob"/>
+</RelativeLayout>

@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.transaksi.prabayar.ProdukActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:id="@+id/toolbar"
+        >
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+            <ImageView
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:src="@drawable/left"
+                android:id="@+id/back"
+                android:layout_centerVertical="true"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/title"
+                android:layout_centerVertical="true"
+                android:textColor="@color/white"
+                android:fontFamily="@font/reguler"
+                android:textSize="18sp"
+                android:layout_toRightOf="@id/back"
+                android:layout_marginLeft="20dp"
+                android:textStyle="bold"
+                />
+        </RelativeLayout>
+    </androidx.appcompat.widget.Toolbar>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_below="@id/toolbar"
+        android:id="@+id/input"
+        android:layout_marginTop="10dp"
+        android:layout_marginHorizontal="20dp"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/kategori"
+            android:visibility="gone"
+            />
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/editext"
+            android:layout_marginBottom="15dp"
+            android:hint="Jenis Layanan"
+            android:id="@+id/produk"
+            android:inputType="number"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center_vertical"
+            android:layout_marginBottom="15dp"
+            >
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingHorizontal="25dp"
+                android:paddingVertical="15dp"
+                android:background="@drawable/editext"
+                android:hint="No. Pelanggan"
+                android:inputType="phone"
+                android:id="@+id/pelanggan"
+                android:layout_weight="1"
+                android:fontFamily="@font/reguler"
+                android:layout_gravity="center_vertical"
+                />
+            <LinearLayout
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center_vertical"
+                android:background="@drawable/bg_bulat"
+                android:layout_marginLeft="10dp"
+                android:gravity="center"
+                android:id="@+id/contact"
+                >
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:src="@drawable/proses"
+                    android:id="@+id/submit"
+                    android:layout_gravity="center_horizontal|center_vertical"
+                    />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <com.facebook.shimmer.ShimmerFrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/shimmer"
+        android:layout_below="@id/input"
+        android:layout_marginTop="10dp"
+        android:layout_marginHorizontal="20dp"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+            <include layout="@layout/shimmer_prabayar"/>
+            <include layout="@layout/shimmer_prabayar"/>
+            <include layout="@layout/shimmer_prabayar"/>
+            <include layout="@layout/shimmer_prabayar"/>
+            <include layout="@layout/shimmer_prabayar"/>
+            <include layout="@layout/shimmer_prabayar"/>
+            <include layout="@layout/shimmer_prabayar"/>
+            <include layout="@layout/shimmer_prabayar"/>
+        </LinearLayout>
+    </com.facebook.shimmer.ShimmerFrameLayout>
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/list_pra"
+        android:layout_below="@id/shimmer"
+        android:layout_marginTop="10dp"
+        android:layout_marginHorizontal="20dp"
+        />
+    <include layout="@layout/admob"/>
+</RelativeLayout>

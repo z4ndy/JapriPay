@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.auth.RegisterActivity">
+
+    <include layout="@layout/toolbar_blue" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_below="@id/toolbar"
+        android:layout_marginTop="45dp"
+        android:layout_marginHorizontal="25dp"
+        android:id="@+id/head"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/bold"
+            android:textSize="18sp"
+            android:textColor="@color/black"
+            android:text="Selamat Datang Kembali"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/reguler"
+            android:textColor="@color/black"
+            android:text="Silahkan daftar kan akun anda jika belum memiliki akun, atau langsung masuk jika sudah memiliki akun"
+            />
+    </LinearLayout>
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="40dp"
+        android:layout_below="@id/head"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/users"
+                android:drawablePadding="10dp"
+                android:padding="15dp"
+                android:id="@+id/reg_name"
+                android:hint="Nama Lengkap"
+                android:inputType="text"
+                android:background="@drawable/editext"
+                android:layout_marginBottom="15dp"
+                />
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/editext"
+                android:padding="10dp">
+
+                <ImageView
+                    android:id="@+id/img"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="3dp"
+                    android:src="@drawable/phone_grey" />
+
+                <com.hbb20.CountryCodePicker
+                    android:id="@+id/code"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="6dp"
+                    android:layout_toRightOf="@id/img"
+                    android:gravity="center"
+                    app:ccp_defaultNameCode="ID"
+                    app:ccp_showFlag="false"
+                    app:ccp_showNameCode="false" />
+
+                <EditText
+                    android:id="@+id/phone"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="6dp"
+                    android:layout_toRightOf="@id/code"
+                    android:background="@null"
+                    android:hint="8123456789"
+                    android:inputType="phone" />
+            </RelativeLayout>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:drawableLeft="@drawable/keys"
+                android:drawablePadding="10dp"
+                android:padding="15dp"
+                android:hint="PIN Transaksi"
+                android:id="@+id/reg_pin"
+                android:inputType="numberPassword"
+                android:background="@drawable/editext"
+                />
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:drawableLeft="@drawable/users"
+                android:drawablePadding="10dp"
+                android:padding="15dp"
+                android:hint="Kode Refferal"
+                android:id="@+id/reg_reff"
+                android:inputType="number"
+                android:background="@drawable/editext"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="12sp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="5dp"
+                android:textColor="@color/grey"
+                android:text="Jika anda tidak memiliki kode referral, kosongkan saja"
+                />
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="20dp"
+        android:layout_alignParentBottom="true"
+        >
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:backgroundTint="@null"
+            android:background="@drawable/bn_blue"
+            android:layout_alignParentBottom="true"
+            android:textSize="20sp"
+            android:padding="10dp"
+            android:id="@+id/signup"
+            android:text="Daftar"
+            android:textAllCaps="false"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/colorPrimary"
+            android:fontFamily="@font/bold"
+            android:text="Sudah punya Akun, Silahkan Masuk"
+            android:gravity="center"
+            android:id="@+id/register"
+            />
+    </LinearLayout>
+</RelativeLayout>

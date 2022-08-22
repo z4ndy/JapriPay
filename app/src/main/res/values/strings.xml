@@ -1,0 +1,30 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">JapriPay</string>
+    <string name="masuk">Masuk</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="nomor_hp">Nomor HP</string>
+    <string name="login">Login</string>
+    <string name="logout">Logout</string>
+    <string name="call">Call</string>
+    <string name="hang_up">Hang up</string>
+    <string name="front_camera">Front</string>
+    <string name="back_camera">Back</string>
+
+    <string name="voice_chat_invite">Voice Chat Invite</string>
+    <string name="accept_call">Accept</string>
+    <string name="decline_call">Decline</string>
+    <string name="disconnected">Disconnected</string>
+    <string name="connecting">Connecting…</string>
+    <string name="connected">Connected</string>
+
+    <string name="create_input_error">Please enter a room name</string>
+    <string name="permissions_error">Microphone and camera permissions are needed for this demo</string>
+
+    <string name="welcome_msg">Welcome</string>
+    <string name="create">Create</string>
+
+
+    <string name="join_room">Join room</string>
+    <string name="room_name">Enter room name</string>
+</resources>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<issues format="6" by="lint 7.2.1" type="baseline" client="gradle" dependencies="false" name="AGP (7.2.1)" variant="fatal" version="7.2.1">
+
+    <issue
+        id="DuplicateIds"
+        message="Duplicate id `@+id/card`, already defined earlier in this layout"
+        errorLine1="            android:id=&quot;@+id/card&quot;"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/layout/activity_bantuan.xml"
+            line="106"
+            column="13"/>
+        <location
+            file="src/main/res/layout/activity_bantuan.xml"
+            line="54"
+            column="9"
+            message="Duplicate id `@+id/card` originally defined here"/>
+    </issue>
+
+    <issue
+        id="DuplicateIds"
+        message="Duplicate id `@+id/card`, already defined earlier in this layout"
+        errorLine1="            android:id=&quot;@+id/card&quot;"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/layout/activity_bantuan.xml"
+            line="123"
+            column="13"/>
+        <location
+            file="src/main/res/layout/activity_bantuan.xml"
+            line="54"
+            column="9"
+            message="Duplicate id `@+id/card` originally defined here"/>
+    </issue>
+
+    <issue
+        id="DuplicateIds"
+        message="Duplicate id `@+id/bpjs`, already defined earlier in this layout"
+        errorLine1="                    android:id=&quot;@+id/bpjs&quot;"
+        errorLine2="                    ~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/layout/activity_home.xml"
+            line="353"
+            column="21"/>
+        <location
+            file="src/main/res/layout/activity_home.xml"
+            line="349"
+            column="17"
+            message="Duplicate id `@+id/bpjs` originally defined here"/>
+    </issue>
+
+</issues>

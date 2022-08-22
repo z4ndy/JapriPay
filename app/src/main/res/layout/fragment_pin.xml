@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="10dp"
+    tools:context=".fragment.setting.PinFragment">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_card"
+            android:paddingVertical="10dp"
+            android:paddingHorizontal="15dp"
+            android:hint="PIN Aktif"
+            android:fontFamily="@font/reguler"
+            android:id="@+id/pin"
+            android:inputType="numberPassword"
+            android:layout_marginBottom="15dp"
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_card"
+            android:paddingVertical="10dp"
+            android:paddingHorizontal="15dp"
+            android:hint="PIN Baru"
+            android:id="@+id/baru"
+            android:inputType="numberPassword"
+            android:fontFamily="@font/reguler"
+            android:layout_marginBottom="15dp"
+            tools:ignore="TextFields" />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_card"
+            android:paddingVertical="10dp"
+            android:paddingHorizontal="15dp"
+            android:hint="Ulangi PIN Baru"
+            android:id="@+id/ulangi"
+            android:inputType="numberPassword"
+            android:fontFamily="@font/reguler"
+            android:layout_marginBottom="15dp"
+            tools:ignore="TextFields" />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bn_blue"
+            android:text="Perbaharui PIN"
+            android:textAllCaps="false"
+            android:fontFamily="@font/reguler"
+            android:textSize="20sp"
+            android:id="@+id/submit"
+            android:layout_marginTop="25dp"
+            android:paddingVertical="10dp"
+            />
+    </LinearLayout>
+    <include layout="@layout/admob"/>
+</RelativeLayout>

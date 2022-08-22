@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.akun.SettingActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:id="@+id/toolbar"
+        >
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+            <ImageView
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:src="@drawable/left"
+                android:id="@+id/back"
+                android:layout_centerVertical="true"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Setting Profile"
+                android:layout_centerVertical="true"
+                android:textColor="@color/white"
+                android:fontFamily="@font/reguler"
+                android:textSize="18sp"
+                android:layout_toRightOf="@id/back"
+                android:layout_marginLeft="20dp"
+                android:textStyle="bold"
+                />
+        </RelativeLayout>
+    </androidx.appcompat.widget.Toolbar>
+    <com.google.android.material.tabs.TabLayout
+        android:id="@+id/tabs_transfer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:elevation="2dp"
+        app:tabTextColor="@color/grey"
+        android:background="@drawable/bg_tabs"
+        android:layout_margin="10dp"
+        android:layout_below="@id/toolbar"
+        app:tabMode="fixed"
+        app:tabGravity="fill"
+        android:layout_gravity="center"
+        app:tabBackground="@drawable/selector_tab"
+        app:tabSelectedTextColor="@color/black"
+        app:tabIndicatorHeight="0dp"
+        app:tabRippleColor="@null"
+        app:tabTextAppearance="@style/tab_text" />
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/viewPagers_transfer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tabs_transfer"
+        android:layout_margin="10dp"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+    <include layout="@layout/admob"/>
+</RelativeLayout>

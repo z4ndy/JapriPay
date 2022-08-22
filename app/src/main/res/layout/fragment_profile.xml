@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="10dp"
+    tools:context=".fragment.setting.ProfileFragment">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_card"
+            android:paddingVertical="10dp"
+            android:paddingHorizontal="15dp"
+            android:hint="Nama Lengkap"
+            android:fontFamily="@font/reguler"
+            android:id="@+id/name"
+            android:inputType="text"
+            android:layout_marginBottom="15dp"
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_card"
+            android:paddingVertical="10dp"
+            android:paddingHorizontal="15dp"
+            android:hint="@string/nomor_hp"
+            android:id="@+id/phone"
+            android:inputType="phone"
+            android:enabled="false"
+            android:fontFamily="@font/reguler"
+            android:layout_marginBottom="15dp"
+            tools:ignore="TextFields" />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_card"
+            android:paddingVertical="10dp"
+            android:paddingHorizontal="15dp"
+            android:hint="Alamat Lengkap"
+            android:id="@+id/address"
+            android:inputType="textMultiLine"
+            android:lines="15"
+            android:minLines="4"
+            android:gravity="top"
+            android:layout_marginBottom="15dp"
+            android:scrollbars="vertical"
+            android:fontFamily="@font/reguler"
+            tools:ignore="TextFields" />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bn_blue"
+            android:text="Perbaharui Profile"
+            android:textAllCaps="false"
+            android:fontFamily="@font/reguler"
+            android:layout_marginTop="25dp"
+            android:paddingVertical="10dp"
+            android:textSize="20sp"
+            android:id="@+id/submit"
+            />
+    </LinearLayout>
+    <include layout="@layout/admob"/>
+</RelativeLayout>

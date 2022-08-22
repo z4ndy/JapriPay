@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.home.LaporanActivity">
+    <include layout="@layout/admob"/>
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:id="@+id/toolbar"
+        >
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+            <ImageView
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:src="@drawable/left"
+                android:id="@+id/back"
+                android:layout_centerVertical="true"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Laporan Transaksi"
+                android:layout_centerVertical="true"
+                android:textColor="@color/white"
+                android:fontFamily="@font/reguler"
+                android:textSize="18sp"
+                android:layout_toRightOf="@id/back"
+                android:layout_marginLeft="20dp"
+                />
+        </RelativeLayout>
+    </androidx.appcompat.widget.Toolbar>
+    <com.facebook.shimmer.ShimmerFrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/toolbar"
+        android:id="@+id/shimmer"
+        android:layout_marginTop="10dp"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+            <include layout="@layout/shimmer_transaksi"/>
+            <include layout="@layout/shimmer_transaksi"/>
+            <include layout="@layout/shimmer_transaksi"/>
+            <include layout="@layout/shimmer_transaksi"/>
+            <include layout="@layout/shimmer_transaksi"/>
+            <include layout="@layout/shimmer_transaksi"/>
+            <include layout="@layout/shimmer_transaksi"/>
+            <include layout="@layout/shimmer_transaksi"/>
+            <include layout="@layout/shimmer_transaksi"/>
+            <include layout="@layout/shimmer_transaksi"/>
+            <include layout="@layout/shimmer_transaksi"/>
+        </LinearLayout>
+    </com.facebook.shimmer.ShimmerFrameLayout>
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/toolbar"
+        android:layout_marginHorizontal="20dp"
+        android:id="@+id/list_transaksi"
+        />
+</RelativeLayout>

@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.members.DaftarActivity">
+    <include layout="@layout/admob"/>
+
+
+    <TextView
+        android:id="@+id/link"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="410dp"
+        android:background="@drawable/btn_green"
+        android:fontFamily="@font/bold"
+        android:gravity="center"
+        android:padding="15dp"
+        android:textColor="@color/green" />
+
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:id="@+id/toolbar"
+        >
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+            <ImageView
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:src="@drawable/left"
+                android:id="@+id/back"
+                android:layout_centerVertical="true"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Daftarkan Mitra"
+                android:layout_centerVertical="true"
+                android:textColor="@color/white"
+                android:fontFamily="@font/reguler"
+                android:textSize="18sp"
+                android:layout_toRightOf="@id/back"
+                android:layout_marginLeft="20dp"
+                />
+        </RelativeLayout>
+    </androidx.appcompat.widget.Toolbar>
+
+    <LinearLayout
+        android:id="@+id/ln_daftar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/toolbar"
+        android:layout_marginHorizontal="25dp"
+        android:layout_marginTop="15dp"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <EditText
+            android:id="@+id/name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/editext"
+            android:drawableLeft="@drawable/users"
+            android:drawablePadding="10dp"
+            android:hint="Nama Lengkap"
+            android:inputType="text"
+            android:padding="15dp" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/editext"
+            android:padding="10dp">
+
+            <ImageView
+                android:id="@+id/img_daftar"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="3dp"
+                android:src="@drawable/phone_grey" />
+
+            <com.hbb20.CountryCodePicker
+                android:id="@+id/code"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="6dp"
+                android:layout_toRightOf="@id/img_daftar"
+                android:gravity="center"
+                app:ccp_defaultNameCode="ID"
+                app:ccp_showFlag="false"
+                app:ccp_showNameCode="false" />
+
+            <EditText
+                android:id="@+id/phone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="6dp"
+                android:layout_toRightOf="@id/code"
+                android:background="@null"
+                android:hint="8123456789"
+                android:inputType="phone" />
+        </RelativeLayout>
+
+        <EditText
+            android:id="@+id/reff"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/editext"
+            android:drawableLeft="@drawable/ic_reff"
+            android:drawablePadding="10dp"
+            android:hint="Kode Refferal"
+            android:inputType="number"
+            android:padding="15dp" />
+
+        <Button
+            android:id="@+id/reg_submit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/bn_blue"
+            android:enabled="false"
+            android:fontFamily="@font/light"
+            android:text="Daftarkan Sekarang"
+            android:textAllCaps="false"
+            android:textSize="22sp" />
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_below="@id/toolbar"
+        android:layout_marginTop="45dp"
+        android:layout_marginHorizontal="25dp"
+        android:id="@+id/head"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/bold"
+            android:text="Selamat Bergabung di Japripay"
+            android:textColor="@color/colorPrimary"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/reguler"
+            android:text="Silahkan Klik Link di Bawah Untuk Mengcopy Link Reff, lalu bagikan ke Mitra mitra anda"
+            android:textColor="@color/purple_700" />
+    </LinearLayout>
+
+</RelativeLayout>

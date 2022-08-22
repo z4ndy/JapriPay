@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.members.MitraActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:id="@+id/toolbar"
+        >
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+            <ImageView
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:src="@drawable/left"
+                android:id="@+id/back"
+                android:layout_centerVertical="true"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="20dp"
+                android:layout_toRightOf="@id/back"
+                android:fontFamily="@font/reguler"
+                android:text="List Mitra"
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:id="@+id/jumlah"
+                android:fontFamily="@font/bold"
+                android:textColor="@color/white"
+                android:textSize="12sp"
+                android:layout_marginRight="25dp"
+                android:layout_alignParentRight="true"
+                android:textStyle="bold" />
+        </RelativeLayout>
+    </androidx.appcompat.widget.Toolbar>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@id/toolbar"
+        android:id="@+id/head"
+        android:layout_marginTop="10dp"
+        android:layout_marginHorizontal="20dp"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/bg_grey"
+            android:padding="5dp"
+            android:orientation="vertical"
+            >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/desc"
+                android:textColor="@color/black"
+                android:text="Nama"
+                android:fontFamily="@font/bold"
+                android:gravity="center"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/bg_blue"
+            android:padding="5dp"
+            android:orientation="vertical"
+            >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/masuk"
+                android:text="No. HP"
+                android:gravity="center"
+                android:fontFamily="@font/bold"
+                android:textColor="@color/colorPrimary"
+                />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/bg_red"
+            android:padding="5dp"
+            android:orientation="vertical"
+            >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/keluar"
+                android:text="Downline"
+                android:textColor="@color/red"
+                android:gravity="center"
+                android:fontFamily="@font/bold"
+                />
+        </LinearLayout>
+
+    </LinearLayout>
+    <com.facebook.shimmer.ShimmerFrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/head"
+        android:id="@+id/shimmer"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="10dp"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+            <include layout="@layout/shimmer_mitra"/>
+            <include layout="@layout/shimmer_mitra"/>
+            <include layout="@layout/shimmer_mitra"/>
+            <include layout="@layout/shimmer_mitra"/>
+            <include layout="@layout/shimmer_mitra"/>
+            <include layout="@layout/shimmer_mitra"/>
+            <include layout="@layout/shimmer_mitra"/>
+            <include layout="@layout/shimmer_mitra"/>
+            <include layout="@layout/shimmer_mitra"/>
+            <include layout="@layout/shimmer_mitra"/>
+            <include layout="@layout/shimmer_mitra"/>
+            <include layout="@layout/shimmer_mitra"/>
+            <include layout="@layout/shimmer_mitra"/>
+            <include layout="@layout/shimmer_mitra"/>
+
+            <include
+                layout="@layout/shimmer_mitra"
+                android:visibility="gone" />
+            <include layout="@layout/shimmer_mitra"/>
+
+        </LinearLayout>
+    </com.facebook.shimmer.ShimmerFrameLayout>
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/list_mitra"
+        android:layout_below="@id/head"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="10dp"
+        />
+
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/adView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:visibility="gone"
+        app:adSize="BANNER"
+        app:adUnitId="ca-app-pub-3940256099942544/6300978111" />
+
+    <include
+        layout="@layout/admob"
+        android:visibility="gone" />
+</RelativeLayout>

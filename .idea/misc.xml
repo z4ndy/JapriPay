@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/#jme home/# versi 3 webhook/JapriPay/app/src/main/res/layout/activity_akun.xml" value="0.536" />
+        <entry key="..\:/#jme home/# versi 3 webhook/JapriPay/app/src/main/res/layout/activity_auth.xml" value="0.536" />
+        <entry key="..\:/#jme home/# versi 3 webhook/JapriPay/app/src/main/res/layout/activity_bantuan.xml" value="0.2" />
+        <entry key="..\:/#jme home/# versi 3 webhook/JapriPay/app/src/main/res/layout/activity_base_app.xml" value="0.14895833333333333" />
+        <entry key="..\:/#jme home/# versi 3 webhook/JapriPay/app/src/main/res/layout/activity_bayar.xml" value="0.14895833333333333" />
+        <entry key="..\:/#jme home/# versi 3 webhook/JapriPay/app/src/main/res/layout/activity_berita.xml" value="0.14895833333333333" />
+        <entry key="..\:/#jme home/# versi 3 webhook/JapriPay/app/src/main/res/layout/activity_daftar.xml" value="0.14895833333333333" />
+        <entry key="..\:/#jme home/# versi 3 webhook/JapriPay/app/src/main/res/layout/activity_detail_paket.xml" value="0.264" />
+        <entry key="..\:/#jme home/# versi 3 webhook/JapriPay/app/src/main/res/layout/activity_harga.xml" value="0.14895833333333333" />
+        <entry key="..\:/#jme home/# versi 3 webhook/JapriPay/app/src/main/res/layout/activity_home.xml" value="0.14895833333333333" />
+        <entry key="..\:/#jme home/# versi 3 webhook/JapriPay/app/src/main/res/layout/activity_invoice.xml" value="0.14895833333333333" />
+        <entry key="..\:/#jme home/# versi 3 webhook/JapriPay/app/src/main/res/layout/activity_konfirmasi_prabayar.xml" value="0.14895833333333333" />
+        <entry key="..\:/#jme home/# versi 3 webhook/JapriPay/app/src/main/res/layout/activity_lainnya.xml" value="0.14895833333333333" />
+        <entry key="..\:/#jme home/# versi 3 webhook/JapriPay/app/src/main/res/layout/activity_lapora_bonus.xml" value="0.14895833333333333" />
+        <entry key="..\:/#jme home/# versi 3 webhook/JapriPay/app/src/main/res/layout/activity_laporan.xml" value="0.14895833333333333" />
+        <entry key="..\:/#jme home/# versi 3 webhook/JapriPay/app/src/main/res/layout/activity_laporan_deposit.xml" value="0.14895833333333333" />
+        <entry key="..\:/#jme home/# versi 3 webhook/JapriPay/app/src/main/res/layout/activity_lapotan_transaksi.xml" value="0.14895833333333333" />
+        <entry key="..\:/#jme home/# versi 3 webhook/JapriPay/app/src/main/res/layout/activity_list_user.xml" value="0.14895833333333333" />
+        <entry key="..\:/#jme home/# versi 3 webhook/JapriPay/app/src/main/res/layout/activity_main.xml" value="0.14895833333333333" />
+        <entry key="..\:/#jme home/# versi 3 webhook/JapriPay/app/src/main/res/layout/activity_mitra.xml" value="0.14895833333333333" />
+        <entry key="..\:/#jme home/# versi 3 webhook/JapriPay/app/src/main/res/layout/activity_mutasi_saldo.xml" value="0.14895833333333333" />
+        <entry key="..\:/#jme home/# versi 3 webhook/JapriPay/app/src/main/res/layout/activity_otp.xml" value="0.14895833333333333" />
+        <entry key="..\:/#jme home/# versi 3 webhook/JapriPay/app/src/main/res/layout/activity_payment.xml" value="0.14895833333333333" />
+        <entry key="..\:/#jme home/# versi 3 webhook/JapriPay/app/src/main/res/layout/activity_prefix.xml" value="0.14895833333333333" />
+        <entry key="..\:/#jme home/# versi 3 webhook/JapriPay/app/src/main/res/layout/activity_produk.xml" value="0.14895833333333333" />
+        <entry key="..\:/#jme home/# versi 3 webhook/JapriPay/app/src/main/res/layout/activity_qrcode.xml" value="0.14895833333333333" />
+        <entry key="..\:/#jme home/# versi 3 webhook/JapriPay/app/src/main/res/layout/activity_register.xml" value="0.14895833333333333" />
+        <entry key="..\:/#jme home/# versi 3 webhook/JapriPay/app/src/main/res/layout/activity_room.xml" value="0.14895833333333333" />
+        <entry key="..\:/#jme home/# versi 3 webhook/JapriPay/app/src/main/res/layout/activity_setting.xml" value="0.14895833333333333" />
+        <entry key="..\:/#jme home/# versi 3 webhook/JapriPay/app/src/main/res/layout/activity_top_up.xml" value="0.14895833333333333" />
+        <entry key="..\:/#jme home/# versi 3 webhook/JapriPay/app/src/main/res/layout/activity_transfer.xml" value="0.14895833333333333" />
+        <entry key="..\:/#jme home/# versi 3 webhook/JapriPay/app/src/main/res/layout/activity_under.xml" value="0.14895833333333333" />
+        <entry key="..\:/#jme home/# versi 3 webhook/JapriPay/app/src/main/res/layout/activity_upgrade.xml" value="0.264" />
+        <entry key="..\:/#jme home/# versi 3 webhook/JapriPay/app/src/main/res/layout/activity_website.xml" value="0.14895833333333333" />
+        <entry key="..\:/#jme home/# versi 3 webhook/JapriPay/app/src/main/res/layout/activity_withdrawl.xml" value="0.14895833333333333" />
+        <entry key="..\:/#jme home/# versi 3 webhook/JapriPay/app/src/main/res/layout/add_topup.xml" value="0.14895833333333333" />
+        <entry key="..\:/#jme home/# versi 3 webhook/JapriPay/app/src/main/res/layout/admob.xml" value="0.14895833333333333" />
+        <entry key="..\:/#jme home/# versi 3 webhook/JapriPay/app/src/main/res/layout/contact_info.xml" value="0.14895833333333333" />
+        <entry key="..\:/#jme home/# versi 3 webhook/JapriPay/app/src/main/res/layout/fragment_pin.xml" value="0.14895833333333333" />
+        <entry key="..\:/#jme home/# versi 3 webhook/JapriPay/app/src/main/res/layout/fragment_profile.xml" value="0.14895833333333333" />
+        <entry key="..\:/#jme home/# versi 3 webhook/JapriPay/app/src/main/res/layout/fragment_rekening.xml" value="0.14895833333333333" />
+        <entry key="..\:/#jme home/# versi 3 webhook/JapriPay/app/src/main/res/layout/konfirmasi.xml" value="0.14895833333333333" />
+        <entry key="..\:/#jme home/# versi 3 webhook/JapriPay/app/src/main/res/layout/list_bank.xml" value="0.14895833333333333" />
+        <entry key="..\:/#jme home/# versi 3 webhook/JapriPay/app/src/main/res/layout/list_berita.xml" value="0.14895833333333333" />
+        <entry key="..\:/#jme home/# versi 3 webhook/JapriPay/app/src/main/res/layout/list_emmoney.xml" value="0.14895833333333333" />
+        <entry key="..\:/#jme home/# versi 3 webhook/JapriPay/app/src/main/res/layout/list_mitra.xml" value="0.14895833333333333" />
+        <entry key="..\:/#jme home/# versi 3 webhook/JapriPay/app/src/main/res/layout/list_mutasi.xml" value="0.14895833333333333" />
+        <entry key="..\:/#jme home/# versi 3 webhook/JapriPay/app/src/main/res/layout/list_prabayar.xml" value="0.14895833333333333" />
+        <entry key="..\:/#jme home/# versi 3 webhook/JapriPay/app/src/main/res/layout/list_transaksi.xml" value="0.14895833333333333" />
+        <entry key="..\:/#jme home/# versi 3 webhook/JapriPay/app/src/main/res/layout/menu.xml" value="0.14895833333333333" />
+        <entry key="..\:/#jme home/# versi 3 webhook/JapriPay/app/src/main/res/layout/notification.xml" value="0.14895833333333333" />
+        <entry key="..\:/#jme home/# versi 3 webhook/JapriPay/app/src/main/res/layout/pay_prabayar.xml" value="0.14895833333333333" />
+        <entry key="..\:/#jme home/# versi 3 webhook/JapriPay/app/src/main/res/layout/progress.xml" value="0.14895833333333333" />
+        <entry key="..\:/#jme home/#japrime 2022/JapriPay - fix edit 29-07/app/src/main/res/layout/activity_daftar.xml" value="0.18958333333333333" />
+        <entry key="..\:/#jme home/#japrime 2022/JapriPay - renamepkg/app/src/main/res/layout/activity_akun.xml" value="0.21784420289855072" />
+        <entry key="..\:/#jme home/#japrime 2022/JapriPay - renamepkg/app/src/main/res/layout/activity_auth.xml" value="0.6174582798459564" />
+        <entry key="..\:/#jme home/#japrime 2022/JapriPay - renamepkg/app/src/main/res/layout/activity_bantuan.xml" value="0.21784420289855072" />
+        <entry key="..\:/#jme home/#japrime 2022/JapriPay - renamepkg/app/src/main/res/layout/activity_base_app.xml" value="0.21784420289855072" />
+        <entry key="..\:/#jme home/#japrime 2022/JapriPay - renamepkg/app/src/main/res/layout/activity_bayar.xml" value="0.21784420289855072" />
+        <entry key="..\:/#jme home/#japrime 2022/JapriPay - renamepkg/app/src/main/res/layout/activity_berita.xml" value="0.21784420289855072" />
+        <entry key="..\:/#jme home/#japrime 2022/JapriPay - renamepkg/app/src/main/res/layout/activity_daftar.xml" value="0.21784420289855072" />
+        <entry key="..\:/#jme home/#japrime 2022/JapriPay - renamepkg/app/src/main/res/layout/activity_harga.xml" value="0.21784420289855072" />
+        <entry key="..\:/#jme home/#japrime 2022/JapriPay - renamepkg/app/src/main/res/layout/activity_home.xml" value="0.176" />
+        <entry key="..\:/#jme home/#japrime 2022/JapriPay - renamepkg/app/src/main/res/layout/activity_invoice.xml" value="0.21784420289855072" />
+        <entry key="..\:/#jme home/#japrime 2022/JapriPay - renamepkg/app/src/main/res/layout/activity_konfirmasi_prabayar.xml" value="0.21784420289855072" />
+        <entry key="..\:/#jme home/#japrime 2022/JapriPay - renamepkg/app/src/main/res/layout/activity_lainnya.xml" value="0.4" />
+        <entry key="..\:/#jme home/#japrime 2022/JapriPay - renamepkg/app/src/main/res/layout/activity_lapora_bonus.xml" value="0.21784420289855072" />
+        <entry key="..\:/#jme home/#japrime 2022/JapriPay - renamepkg/app/src/main/res/layout/activity_laporan.xml" value="0.21784420289855072" />
+        <entry key="..\:/#jme home/#japrime 2022/JapriPay - renamepkg/app/src/main/res/layout/toolbar_white.xml" value="0.21784420289855072" />
+        <entry key="..\:/#jme home/#japrime 2022/JapriPay/app/src/main/res/layout/activity_akun.xml" value="0.264" />
+        <entry key="..\:/#jme home/#japrime 2022/JapriPay/app/src/main/res/layout/activity_auth.xml" value="0.536" />
+        <entry key="..\:/#jme home/#japrime 2022/JapriPay/app/src/main/res/layout/activity_bantuan.xml" value="0.21302083333333333" />
+        <entry key="..\:/#jme home/#japrime 2022/JapriPay/app/src/main/res/layout/activity_base_app.xml" value="0.21302083333333333" />
+        <entry key="..\:/#jme home/#japrime 2022/JapriPay/app/src/main/res/layout/activity_bayar.xml" value="0.536" />
+        <entry key="..\:/#jme home/#japrime 2022/JapriPay/app/src/main/res/layout/activity_berita.xml" value="0.22826086956521738" />
+        <entry key="..\:/#jme home/#japrime 2022/JapriPay/app/src/main/res/layout/activity_daftar.xml" value="0.22826086956521738" />
+        <entry key="..\:/#jme home/#japrime 2022/JapriPay/app/src/main/res/layout/activity_harga.xml" value="0.22826086956521738" />
+        <entry key="..\:/#jme home/#japrime 2022/JapriPay/app/src/main/res/layout/activity_home.xml" value="0.2" />
+        <entry key="..\:/#jme home/#japrime 2022/JapriPay/app/src/main/res/layout/activity_invoice.xml" value="0.22826086956521738" />
+        <entry key="..\:/#jme home/#japrime 2022/JapriPay/app/src/main/res/layout/activity_konfirmasi_prabayar.xml" value="0.22826086956521738" />
+        <entry key="..\:/#jme home/#japrime 2022/JapriPay/app/src/main/res/layout/activity_lainnya.xml" value="0.72" />
+        <entry key="..\:/#jme home/#japrime 2022/JapriPay/app/src/main/res/layout/activity_lapora_bonus.xml" value="0.22826086956521738" />
+        <entry key="..\:/#jme home/#japrime 2022/JapriPay/app/src/main/res/layout/activity_laporan.xml" value="0.22826086956521738" />
+        <entry key="..\:/#jme home/#japrime 2022/JapriPay/app/src/main/res/layout/activity_laporan_deposit.xml" value="0.22826086956521738" />
+        <entry key="..\:/#jme home/#japrime 2022/JapriPay/app/src/main/res/layout/activity_lapotan_transaksi.xml" value="0.22826086956521738" />
+        <entry key="..\:/#jme home/#japrime 2022/JapriPay/app/src/main/res/layout/activity_list_user.xml" value="0.22826086956521738" />
+        <entry key="..\:/#jme home/#japrime 2022/JapriPay/app/src/main/res/layout/activity_main.xml" value="0.22826086956521738" />
+        <entry key="..\:/#jme home/#japrime 2022/JapriPay/app/src/main/res/layout/activity_mitra.xml" value="0.4" />
+        <entry key="..\:/#jme home/#japrime 2022/JapriPay/app/src/main/res/layout/activity_mutasi_saldo.xml" value="0.22826086956521738" />
+        <entry key="..\:/#jme home/#japrime 2022/JapriPay/app/src/main/res/layout/activity_otp.xml" value="0.536" />
+        <entry key="..\:/#jme home/#japrime 2022/JapriPay/app/src/main/res/layout/activity_payment.xml" value="0.22826086956521738" />
+        <entry key="..\:/#jme home/#japrime 2022/JapriPay/app/src/main/res/layout/activity_prefix.xml" value="0.22826086956521738" />
+        <entry key="..\:/#jme home/#japrime 2022/JapriPay/app/src/main/res/layout/activity_produk.xml" value="0.22826086956521738" />
+        <entry key="..\:/#jme home/#japrime 2022/JapriPay/app/src/main/res/layout/activity_qrcode.xml" value="0.22826086956521738" />
+        <entry key="..\:/#jme home/#japrime 2022/JapriPay/app/src/main/res/layout/activity_register.xml" value="0.22826086956521738" />
+        <entry key="..\:/#jme home/#japrime 2022/JapriPay/app/src/main/res/layout/activity_room.xml" value="0.22826086956521738" />
+        <entry key="..\:/#jme home/#japrime 2022/JapriPay/app/src/main/res/layout/activity_setting.xml" value="0.22826086956521738" />
+        <entry key="..\:/#jme home/#japrime 2022/JapriPay/app/src/main/res/layout/activity_top_up.xml" value="0.22826086956521738" />
+        <entry key="..\:/#jme home/#japrime 2022/JapriPay/app/src/main/res/layout/activity_transfer.xml" value="0.22826086956521738" />
+        <entry key="..\:/#jme home/#japrime 2022/JapriPay/app/src/main/res/layout/activity_under.xml" value="0.22826086956521738" />
+        <entry key="..\:/#jme home/#japrime 2022/JapriPay/app/src/main/res/layout/activity_upgrade.xml" value="0.4" />
+        <entry key="..\:/#jme home/#japrime 2022/JapriPay/app/src/main/res/layout/activity_website.xml" value="0.22826086956521738" />
+        <entry key="..\:/#jme home/#japrime 2022/JapriPay/app/src/main/res/layout/activity_withdrawl.xml" value="0.22826086956521738" />
+        <entry key="..\:/#jme home/#japrime 2022/JapriPay/app/src/main/res/layout/add_topup.xml" value="0.22826086956521738" />
+        <entry key="..\:/#jme home/#japrime 2022/JapriPay/app/src/main/res/layout/admob.xml" value="0.22826086956521738" />
+        <entry key="..\:/#jme home/#japrime 2022/JapriPay/app/src/main/res/layout/contact_info.xml" value="0.22826086956521738" />
+        <entry key="..\:/#jme home/#japrime 2022/JapriPay/app/src/main/res/layout/fragment_pin.xml" value="0.22826086956521738" />
+        <entry key="..\:/#jme home/#japrime 2022/JapriPay/app/src/main/res/layout/fragment_profile.xml" value="0.22826086956521738" />
+        <entry key="..\:/#jme home/#japrime 2022/JapriPay/app/src/main/res/layout/fragment_rekening.xml" value="0.22826086956521738" />
+        <entry key="..\:/#jme home/#japrime 2022/JapriPay/app/src/main/res/layout/konfirmasi.xml" value="0.22826086956521738" />
+        <entry key="..\:/#jme home/#japrime 2022/JapriPay/app/src/main/res/layout/list_bank.xml" value="0.21784420289855072" />
+        <entry key="..\:/#jme home/#japrime 2022/JapriPay/app/src/main/res/layout/list_berita.xml" value="0.21784420289855072" />
+        <entry key="..\:/#jme home/#japrime 2022/JapriPay/app/src/main/res/layout/list_emmoney.xml" value="0.21784420289855072" />
+        <entry key="..\:/#jme home/#japrime 2022/JapriPay/app/src/main/res/layout/list_mitra.xml" value="0.21302083333333333" />
+        <entry key="..\:/#jme home/#japrime 2022/JapriPay/app/src/main/res/layout/list_mutasi.xml" value="0.21302083333333333" />
+        <entry key="..\:/#jme home/#japrime 2022/JapriPay/app/src/main/res/layout/list_prabayar.xml" value="0.21302083333333333" />
+        <entry key="..\:/#jme home/#japrime 2022/JapriPay/app/src/main/res/layout/list_transaksi.xml" value="0.21302083333333333" />
+        <entry key="..\:/#jme home/#japrime 2022/JapriPay/app/src/main/res/layout/menu.xml" value="0.21302083333333333" />
+        <entry key="..\:/#jme home/#japrime 2022/JapriPay/app/src/main/res/layout/notification.xml" value="0.21302083333333333" />
+        <entry key="..\:/#jme home/#japrime 2022/JapriPay/app/src/main/res/layout/pay_prabayar.xml" value="0.21302083333333333" />
+        <entry key="..\:/#jme home/#japrime 2022/JapriPay/app/src/main/res/layout/progress.xml" value="0.21302083333333333" />
+        <entry key="..\:/#jme home/#japrime 2022/JapriPay/app/src/main/res/layout/progress_error.xml" value="0.21302083333333333" />
+        <entry key="..\:/#jme home/#japrime 2022/JapriPay/app/src/main/res/layout/progress_success.xml" value="0.21302083333333333" />
+        <entry key="..\:/#jme home/#japrime 2022/JapriPay/app/src/main/res/layout/shimmer_berita.xml" value="0.21302083333333333" />
+        <entry key="..\:/#jme home/#japrime 2022/JapriPay/app/src/main/res/layout/shimmer_mitra.xml" value="0.21302083333333333" />
+        <entry key="..\:/#jme home/#japrime 2022/JapriPay/app/src/main/res/layout/shimmer_mutasi.xml" value="0.21302083333333333" />
+        <entry key="..\:/#jme home/#japrime 2022/JapriPay/app/src/main/res/layout/shimmer_prabayar.xml" value="0.21784420289855072" />
+        <entry key="..\:/#jme home/#japrime 2022/JapriPay/app/src/main/res/layout/shimmer_transaksi.xml" value="0.21784420289855072" />
+        <entry key="..\:/#jme home/#japrime 2022/JapriPay/app/src/main/res/layout/show_qrcode.xml" value="0.21784420289855072" />
+        <entry key="..\:/#jme home/#japrime 2022/JapriPay/app/src/main/res/layout/toolbar_blue.xml" value="0.21302083333333333" />
+        <entry key="..\:/#jme home/#japrime 2022/JapriPay/app/src/main/res/layout/toolbar_white.xml" value="0.21302083333333333" />
+        <entry key="..\:/#jme home/#japrime 2022/JapriPay/app/src/main/res/layout/tools_invoice.xml" value="0.21302083333333333" />
+        <entry key="..\:/ANDROID/JapriPay/app/src/main/res/drawable/bg_blue.xml" value="0.199" />
+        <entry key="..\:/ANDROID/JapriPay/app/src/main/res/drawable/bg_card.xml" value="0.199" />
+        <entry key="..\:/ANDROID/JapriPay/app/src/main/res/layout/activity_akun.xml" value="0.25" />
+        <entry key="..\:/ANDROID/JapriPay/app/src/main/res/layout/activity_auth.xml" value="0.25" />
+        <entry key="..\:/ANDROID/JapriPay/app/src/main/res/layout/activity_detail_paket.xml" value="0.25" />
+        <entry key="..\:/ANDROID/JapriPay/app/src/main/res/layout/activity_home.xml" value="0.25" />
+        <entry key="..\:/ANDROID/JapriPay/app/src/main/res/layout/activity_invoice.xml" value="0.25" />
+        <entry key="..\:/ANDROID/JapriPay/app/src/main/res/layout/activity_konfirmasi_prabayar.xml" value="0.25" />
+        <entry key="..\:/ANDROID/JapriPay/app/src/main/res/layout/activity_produk.xml" value="0.25" />
+        <entry key="..\:/ANDROID/JapriPay/app/src/main/res/layout/activity_upgrade.xml" value="0.2359375" />
+        <entry key="..\:/ANDROID/JapriPay/app/src/main/res/layout/activity_withdrawl.xml" value="0.25" />
+        <entry key="..\:/ANDROID/JapriPay/app/src/main/res/layout/fragment_rekening.xml" value="0.25" />
+        <entry key="..\:/ANDROID/JapriPay/app/src/main/res/layout/list_bank.xml" value="0.25" />
+        <entry key="..\:/ANDROID/JapriPay/app/src/main/res/layout/progress.xml" value="0.25" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

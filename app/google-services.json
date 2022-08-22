@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "36419982045",
+    "project_id": "japripay-4ae9a",
+    "storage_bucket": "japripay-4ae9a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:36419982045:android:38b674ebc88b466eb7c134",
+        "android_client_info": {
+          "package_name": "com.masterweb.japripay"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "36419982045-aid218vrncmb15en555o4o3m25bmdt8g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBiGq7SdiEFN5OJEu4qzbRSZ2R7rKq-TSU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "36419982045-aid218vrncmb15en555o4o3m25bmdt8g.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
